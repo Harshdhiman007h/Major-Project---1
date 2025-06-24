@@ -104,3 +104,7 @@ body{
     width:40rem !important;
     height:18rem !important;
 }
+
+.form-control{
+    border-radius: 2rem !important;
+}
