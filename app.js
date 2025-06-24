@@ -28,7 +28,7 @@ app.engine("ejs",ejsMate);
 app.use(express.static(path.join(__dirname,"public")));
 
 app.get("/", (req, res)=>{
-    res.send("Hi, I am Root ");
+    res.send("Hi, I am Root");
 });
 
 app.get("/listings" ,async(req, res)=>{
