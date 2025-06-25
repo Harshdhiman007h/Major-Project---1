@@ -73,20 +73,6 @@ app.get("/listing/:id/delete", async( req, res)=>{
     res.redirect("/listings");
 });
 
-// app.get("/test", async(req, res)=>{
-//     let sampletest = new Listing({
-//         title: "My New Villa",
-//         description: "By the beach",
-//         price: 150000,
-//         location: "Goa",
-//         country: "India",
-//     });
-
-//     await sampletest.save();
-//     console.log("Sample was saved");
-//     res.send("successful testing");
-// });
-
 app.listen(8080 ,()=>{
     console.log("server is Working");
 });
